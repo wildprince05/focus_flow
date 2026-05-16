@@ -1,0 +1,15 @@
+{
+  "name": "focusflow-server",
+  "version": "1.0.0",
+  "description": "FocusFlow Pomodoro API",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test:db": "node scripts/test-db.js"
+  },
+  "keywords": ["pomodoro", "productivity"],
+  "author": "",
+  "license": "ISC"
+}
